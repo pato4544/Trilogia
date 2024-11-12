@@ -1,20 +1,40 @@
+.navBar {
+        background-color: #004080; /* El color de la nav (basicamente el fondo de los botones) */
+        position: fixed; /* Dejamos la nav estancada arriba */
+        top: 0%; /* La ponemos arriba del todo */
+        left: 0%; /* Tambien pegada a la izquierda */
+        width: 100%; /* Que ocupe todo el ancho */
+        padding: 10px 0px; /* Un poquito de padding hacia arriba y abajo para que no me apriete tanto los botones */
+}
+
+
+
+.containerBotones {
+        display: flex; /* Se activa el flexbox, que por defecto pone los botones en linea*/
+        justify-content: space-around; /* Que los botones tengan el mismo espacio entre si */
+}
+
+
+
 .botonNav {
-    background-color: beige;
-    color: #333;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    font-size: 16px;
+    background-color: #66B3FF ; /* El color del boton */
+    color: #333; /* El color del texto del boton */
+    padding: 10px 20px; /* El espacio entre los bordes del boton y el texto (10 arriba/abajo y 20 a los costados) */
+    border: none; /* El borde del boton, se ve mejor de esta forma asi que ninguno */
+    border-radius: 40px; /* Es basicamente redondear las esquinas, como en Figma */
+    cursor: pointer; /* Es para ver la manito al acercar el click en el boton */
+    font-size: 16px; /* El tamaño de la letra */
 }
 
 .botonNav a{
-        text-decoration: none; /* Le sacamos el subrayado */
-        color: inherit; 
+        text-decoration: none; /* Le sacamos el subrayado a las palabras */
+        color: inherit; /* Hereda el color del texto-boton que pusimos arriba (#333)  */
 }
 
 
-
+.body {
+        margin-top: 60px;
+}
 
 .parrafo {
         color: #2a2a2a;
@@ -24,14 +44,15 @@
 }
 
 .titulo1{
+
         color: #004080;
         font-size: 36px;
-        font-family: 'Georgia', serif;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        text-transform: uppercase;
-        letter-spacing: 2px; 
+        font-family: 'Georgia', serif; /* Es el tipo de letra que se deberia usar */
+        text-align: center; /* Te centra el textito al medio de la pagina */
+        margin-top: 70px; /* Te separa por 70px el h1 con el elemento de arriba, le tuve que poner una banda porque el buen nav me lo tapaba */
+        margin-bottom: 30px; /* Lo mismo pero a la inversa, te separa el h1 con el siguiente elemento (que seria el p) por 30 px */
+        text-transform: uppercase; /* Lo que pusiste te lo lleva a mayusculas */
+        letter-spacing: 2px; /* El espaciado entre letras */
 }
 .titulo2{
     color: #333333;
