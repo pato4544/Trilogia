@@ -1,3 +1,21 @@
+.botonNav {
+    background-color: beige;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botonNav a{
+        text-decoration: none; /* Le sacamos el subrayado */
+        color: inherit; 
+}
+
+
+
+
 .parrafo {
         color: #2a2a2a;
         font-size: 18px;
