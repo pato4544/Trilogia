@@ -1,0 +1,46 @@
+.parrafo {
+        color: #2a2a2a;
+        font-size: 18px;
+        font-family: 'Georgia', serif;
+        line-height: 1.6;
+}
+
+.titulo1{
+        color: #004080;
+        font-size: 36px;
+        font-family: 'Georgia', serif;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        letter-spacing: 2px; 
+}
+.titulo2{
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;  
+}
+
+.agradecimiento{
+        color: #555555;
+        font-size: 16px;
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+        margin-top: 40px;
+        font-style: italic;
+        padding: 10px;
+        border-top: 1px solid #cccccc;
+}
+.subtitulo {
+    color: #004080;
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
