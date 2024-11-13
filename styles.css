@@ -6,8 +6,10 @@
         top: 0%; /* La ponemos arriba del todo */
         left: 0%; /* Tambien pegada a la izquierda */
         width: 100%; /* Que ocupe todo el ancho */
-        padding: 25px 5px; /* Un poquito de padding hacia arriba y abajo para que no me apriete tanto los botones */
+        padding: 10px 5px; /* Un poquito de padding hacia arriba y abajo para que no me apriete tanto los botones */
+        height: 35px;
 }
+
 
 
 
@@ -51,7 +53,7 @@
         font-size: 36px;
         font-family: 'Georgia', serif; /* Es el tipo de letra que se deberia usar */
         text-align: center; /* Te centra el textito al medio de la pagina */
-        margin-top: 80px; /* Te separa por 70px el h1 con el elemento de arriba, le tuve que poner una banda porque el buen nav me lo tapaba */
+        margin-top: 55px; /* Te separa por 70px el h1 con el elemento de arriba, le tuve que poner una banda porque el buen nav me lo tapaba */
         margin-bottom: 30px; /* Lo mismo pero a la inversa, te separa el h1 con el siguiente elemento (que seria el p) por 30 px */
         text-transform: uppercase; /* Lo que pusiste te lo lleva a mayusculas */
         letter-spacing: 2px; /* El espaciado entre letras */
