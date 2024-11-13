@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 
 .navBar {
         background-color: white; /* El color de la nav (basicamente el fondo de los botones) */
@@ -34,32 +38,34 @@
 }
 
 .hero {
-        background-image: url(img/lagunaDiamante2.jpeg) ;
+        background-image: url(img/mendoza5.jpg) ;
         background-size: cover; /* Si no metes esto la imagen se empieza a repetir */
         background-position: center center;
         height: 100vh; /* Para que ocupe mas espacio basicamente, se controlo dependiendo de cuan largo queres que sea el hero */
         margin: 0;
+        text-align: center;
 }
+ 
+.heroBienvenida {
 
-.parrafo {
-        color: #2a2a2a;
-        font-size: 18px;
-        font-family: 'Georgia', serif;
-        line-height: 1.6;
-}
-
-.titulo1{
-
-        color: rgb(11, 45, 107);
-        font-size: 2rem;
-        font-family:'Roboto', sans-serif; /* Es el tipo de letra que se deberia usar */
+        color: white;
+        font-family: 'Poppins', sans-serif; /* Es el tipo de letra que se deberia usar */
         text-align: center; /* Te centra el textito al medio de la pagina */
-        margin-top: 55px; /* Te separa por 70px el h1 con el elemento de arriba, le tuve que poner una banda porque el buen nav me lo tapaba */
-        margin-bottom: 30px; /* Lo mismo pero a la inversa, te separa el h1 con el siguiente elemento (que seria el p) por 30 px */
-        text-transform: uppercase; /* Lo que pusiste te lo lleva a mayusculas */
-        letter-spacing: 0px; /* El espaciado entre letras */
-        padding-top: 162px; /* Te baja aun mas el h1 con padding sin necesidad de joder la navBar, como hacer margin-top */
+        font-size: 50px;
+        padding-top: 280px;
+        padding-bottom: 0%;
+        margin-bottom: 3px;
 }
+
+.heroSubtitulo {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        margin-top: 0px;
+}
+
 .titulo2{
     color: #333333;
     font-size: 20px;
