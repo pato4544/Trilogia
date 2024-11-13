@@ -18,12 +18,13 @@
 }
 .containerLinks {
         display: flex; /* Se activa el flexbox, que por defecto pone los botones en linea*/
-        justify-content: space-around; /* Que los botones tengan el mismo espacio entre si */
+        justify-content: center; /* Que los botones tengan el mismo espacio entre si */
+        gap: 30px;
 }
 
 .navLink {
         font-family: 'Roboto', sans-serif;
-        font-size: 15px;
+        font-size: 20px;
         gap: 10%;
         text-decoration: none; /* Le sacamos el subrayado a las palabras */
         color: rgb(10, 10, 112)
