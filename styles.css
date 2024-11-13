@@ -31,7 +31,7 @@
 }
 
 .hero {
-        background-image: url(img/mendozaw.jpg) ;
+        background-image: url(img/lagunaDiamente.jpg) ;
         background-size: cover;
         background-position: center center;
         height: 100vh; 
@@ -51,7 +51,7 @@
         font-size: 36px;
         font-family: 'Georgia', serif; /* Es el tipo de letra que se deberia usar */
         text-align: center; /* Te centra el textito al medio de la pagina */
-        margin-top: 70px; /* Te separa por 70px el h1 con el elemento de arriba, le tuve que poner una banda porque el buen nav me lo tapaba */
+        margin-top: 80px; /* Te separa por 70px el h1 con el elemento de arriba, le tuve que poner una banda porque el buen nav me lo tapaba */
         margin-bottom: 30px; /* Lo mismo pero a la inversa, te separa el h1 con el siguiente elemento (que seria el p) por 30 px */
         text-transform: uppercase; /* Lo que pusiste te lo lleva a mayusculas */
         letter-spacing: 2px; /* El espaciado entre letras */
