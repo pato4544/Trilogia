@@ -23,7 +23,7 @@
 
 .navLink {
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 17px;
         gap: 10%;
         text-decoration: none; /* Le sacamos el subrayado a las palabras */
         color: #004080
@@ -52,7 +52,7 @@
 
         color: rgb(11, 45, 107);
         font-size: 2rem;
-        font-family: Georgia, 'Times New Roman', Times, serif; /* Es el tipo de letra que se deberia usar */
+        font-family:'Roboto', sans-serif; /* Es el tipo de letra que se deberia usar */
         text-align: center; /* Te centra el textito al medio de la pagina */
         margin-top: 55px; /* Te separa por 70px el h1 con el elemento de arriba, le tuve que poner una banda porque el buen nav me lo tapaba */
         margin-bottom: 30px; /* Lo mismo pero a la inversa, te separa el h1 con el siguiente elemento (que seria el p) por 30 px */
