@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 
+/* NAVBAR */
+
+
 .navBar {
         background-color: white; /* El color de la nav (basicamente el fondo de los botones) */
         position: fixed; /* Dejamos la nav estancada arriba */
@@ -36,6 +39,13 @@
         color: blue
 }
 
+
+/* FIN NAVBAR */
+
+
+/* HERO */
+
+
 .hero {
         background-image: url(img/mendoza5.jpg) ;
         background-size: cover; /* Si no metes esto la imagen se empieza a repetir */
@@ -51,7 +61,8 @@
         font-family: 'Poppins', sans-serif; /* Es el tipo de letra que se deberia usar */
         text-align: center; /* Te centra el textito al medio de la pagina */
         font-size: 40px;
-        padding-top: 320px;
+        font-weight: 300;
+        padding-top: 345px;
         padding-bottom: 0%;
         margin-bottom: 10px;
 }
@@ -66,19 +77,18 @@
         margin-top: 0px;
 }
 
-.subtitulo {
-    color: #004080;
-    font-size: 18px;
-    font-family: 'Georgia', serif;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
+
+/* FIN HERO */
+
+
 body {
-        padding-top: 0%; /* Ajusta este valor si tu navbar es más alto */
+        padding-top: 0%; 
         margin: 0;
 }
+
+
+/* FOOTER */
+
 
 .footer {
         background-color: white;
@@ -107,22 +117,41 @@ body {
         color: #004080;
 }
 
+
+/* FIN FOOTER */
+
+
+/* SITIOS */
 .guia {
-        padding-top: 60px;
+        padding-top: 46px;
         padding-left: 10px;
+}
+
+.guia h3 {
+        color: #0138b0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        font-weight: lighter;
 }
 .guia a {
         text-decoration: none;
+        color: #004080;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+}
 
+.guia a:hover{
+        color: blue;
 }
 
 .sitios {
-        background-color: rgb(252, 252, 237);  
+  
         text-align: center;
+        background-color: #FAF9F6
 }
 
 .sitios h2 {
-        color: #004080;
+        color: #003366;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: lighter;
@@ -130,7 +159,7 @@ body {
 }
 
 .sitios p {
-        color: #4d4d4d;
+        color: #6699cc;
         padding-left: 20%;
         padding-right: 20%;
         text-align: center;
@@ -138,9 +167,24 @@ body {
         font-size: 16px;
 }
 
+.opinionesSitios {
+        color: #6699cc;
+}
+
 .sitios img {
         width: 35%;
         height: 35%;
+        border: 2px solid #0138b0;
 }
 
+.lineaGuia {
+        color: blue;
+        width: 30%;
+        
+}
+.lineaSitios {
+        border-color: transparent;
+        background-color: blue;
+        
+}
 
