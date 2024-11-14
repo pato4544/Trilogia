@@ -27,10 +27,9 @@
 
 .navLink {
         font-family: 'Roboto', sans-serif;
-        font-size: 17px;
-        gap: 10%;
+        font-size: 19px;
         text-decoration: none; /* Le sacamos el subrayado a las palabras */
-        color: #004080
+        color: #004080;
 }
 
 .navLink:hover {
@@ -51,10 +50,10 @@
         color: white;
         font-family: 'Poppins', sans-serif; /* Es el tipo de letra que se deberia usar */
         text-align: center; /* Te centra el textito al medio de la pagina */
-        font-size: 50px;
-        padding-top: 280px;
+        font-size: 40px;
+        padding-top: 320px;
         padding-bottom: 0%;
-        margin-bottom: 3px;
+        margin-bottom: 10px;
 }
 
 .heroSubtitulo {
@@ -62,29 +61,11 @@
         text-transform: uppercase;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 20px;
+        font-weight: bold;
         margin-top: 0px;
 }
 
-.titulo2{
-    color: #333333;
-    font-size: 20px;
-    font-family: 'Arial', sans-serif;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: bold;  
-}
-
-.agradecimiento{
-        color: #555555;
-        font-size: 16px;
-        font-family: 'Arial', sans-serif;
-        text-align: center;
-        margin-top: 40px;
-        font-style: italic;
-        padding: 10px;
-}
 .subtitulo {
     color: #004080;
     font-size: 18px;
@@ -125,3 +106,41 @@ body {
         font-size: small;
         color: #004080;
 }
+
+.guia {
+        padding-top: 60px;
+        padding-left: 10px;
+}
+.guia a {
+        text-decoration: none;
+
+}
+
+.sitios {
+        background-color: rgb(252, 252, 237);  
+        text-align: center;
+}
+
+.sitios h2 {
+        color: #004080;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+}
+
+.sitios p {
+        color: #4d4d4d;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+}
+
+.sitios img {
+        width: 35%;
+        height: 35%;
+}
+
+
