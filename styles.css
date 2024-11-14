@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+
 
 
 /* NAVBAR */
@@ -159,16 +162,28 @@ body {
 }
 
 .sitios p {
+        padding-top: 20px;
+        
         color: #6699cc;
         padding-left: 20%;
         padding-right: 20%;
         text-align: center;
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
 }
 
-.opinionesSitios {
-        color: #6699cc;
+.opinionesSitios h3 {
+        font-family: 'Lora', sans-serif;
+        color:  #355e21;
+        font-style: italic;
+        font-size: 16px;
+        
+}
+
+.opinionesSitios p {
+        color:  #355e21;
+        font-style: italic;
+        font-size: 16px;
 }
 
 .sitios img {
