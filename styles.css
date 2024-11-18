@@ -150,7 +150,8 @@ body {
 .sitios {
   
         text-align: center;
-        background-color: #FAF9F6
+        background-color: #FAF9F6;
+
 }
 
 .sitios h2 {
@@ -159,11 +160,12 @@ body {
         font-size: 20px;
         font-weight: lighter;
         text-align: center;
+        text-transform: uppercase;
+        scroll-margin-top: 70px;
 }
 
 .sitios p {
-        padding-top: 20px;
-        
+        padding-top: 5px;
         color: #6699cc;
         padding-left: 20%;
         padding-right: 20%;
@@ -171,6 +173,7 @@ body {
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
 }
+
 
 .opinionesSitios h3 {
         font-family: 'Lora', sans-serif;
@@ -186,7 +189,7 @@ body {
         font-size: 16px;
 }
 
-.sitios img {
+.imgSitios {
         width: 35%;
         height: 35%;
         border: 2px solid #0138b0;
@@ -203,3 +206,30 @@ body {
         
 }
 
+
+.ubicacion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.sitios h4 {
+        color: #375286;
+        font-family: 'Montserrat';
+}
+
+
+
+.iconoSitios {
+        width: 3.2%;
+        height: 3.2%;
+}
+
+
+.elementosGuia {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        padding-left: 6%;
+
+}
