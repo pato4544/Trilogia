@@ -18,17 +18,21 @@
         width: 100%; /* Que ocupe todo el ancho */
         padding: 10px 5px; /* Un poquito de padding hacia arriba y abajo para que no me apriete tanto los botones */
         height: 35px;
+        display: flex;
+        justify-content: space-around;
+        
 }
 
 .navLogo {
         height: 10px;
-        margin-top: -5px;
-        margin-left: 25px;
+        padding-right: 10%;       
 }
+
 .navLinks {
         display: flex; /* Se activa el flexbox, que por defecto pone los botones en linea*/
-        justify-content: center; /* Que los botones tengan el mismo espacio entre si */
-        gap: 30px;
+        gap: 25px;
+        align-items: center;
+        padding-right: 7%;
 }
 
 .navLink {
@@ -42,6 +46,24 @@
         color: blue
 }
 
+.navContacto {
+        display: flex;
+        align-items: center;
+        border: 2px solid transparent;
+        transition: border 0.3s ease;
+}
+
+.navContacto a {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: bolder;
+        font-size: 16px;
+        color: #004080;
+}
+
+.navContacto:hover {
+        border: 2px solid blue;
+}
 
 /* FIN NAVBAR */
 
@@ -214,11 +236,16 @@ body {
         
 }
 
-.sitios h4 {
-        color: #375286;
+.sitios a {
+        color: #1b4eac;
         font-family: 'Montserrat';
+        text-decoration: none;
+        
 }
 
+.sitios a:hover{
+        color: blue;
+}
 
 
 .iconoSitios {
