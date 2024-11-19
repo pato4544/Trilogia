@@ -68,43 +68,6 @@
 /* FIN NAVBAR */
 
 
-/* HERO */
-
-
-.hero {
-        background-image: url(img/mendoza5.jpg) ;
-        background-size: cover; /* Si no metes esto la imagen se empieza a repetir */
-        background-position: center center;
-        height: 100vh; /* Para que ocupe mas espacio basicamente, se controlo dependiendo de cuan largo queres que sea el hero */
-        margin: 0;
-        text-align: center;
-}
- 
-.heroBienvenida {
-
-        color: white;
-        font-family: 'Poppins', sans-serif; /* Es el tipo de letra que se deberia usar */
-        text-align: center; /* Te centra el textito al medio de la pagina */
-        font-size: 40px;
-        font-weight: 300;
-        padding-top: 345px;
-        padding-bottom: 0%;
-        margin-bottom: 10px;
-}
-
-.heroSubtitulo {
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        margin-top: 0px;
-}
-
-
-/* FIN HERO */
-
 
 body {
         padding-top: 0%; 
@@ -259,4 +222,50 @@ body {
         grid-template-columns: repeat(4, 25%);
         padding-left: 6%;
 
+}
+
+
+
+
+.hero {
+        background-image: url(img/mendoza.webp) ;
+        background-size: cover; /* Si no metes esto la imagen se empieza a repetir */
+        background-position: center center;
+        height: 100vh; /* Para que ocupe mas espacio basicamente, se controlo dependiendo de cuan largo queres que sea el hero */
+        margin: 0;
+        text-align: center;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+ 
+.textoHero h1 {
+
+        color: white;
+        font-family: 'Montserrat', sans-serif; /* Es el tipo de letra que se deberia usar */
+        text-align: center; /* Te centra el textito al medio de la pagina */
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-bottom: 0%;
+        margin-bottom: 10px;
+}
+
+.textoHero h2 {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 0px;
+}
+
+
+.videoHero video { /* El videito solo carga hasta el minuto 2 */
+        padding-top: 50px;
+        max-width: 600px;
+        max-height: 1000px;
 }
