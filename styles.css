@@ -270,3 +270,22 @@ body {
         max-width: 600px;
         max-height: 1000px;
 }
+
+
+.formulario {
+       width: 100vw;
+       background-color:rgb(243, 226, 206);
+       height: 750px;
+        
+}
+
+.mainFormulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-top: 100px;
+
+        
+        
+}
