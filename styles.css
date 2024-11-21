@@ -289,3 +289,56 @@ body {
         
         
 }
+
+.contenedorFlex {
+        display: flex;
+        border: 2px solid;
+        flex-direction: column;
+        text-align: center;
+        
+}
+
+.item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        border: 2px solid red;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+}
+
+.barritaDerecha {
+        border: #003366 solid;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 20%;
+}
+
+#a {
+     border: 2px solid yellow; 
+     display: flex;
+     justify-content: center;
+     align-items: center;  
+}
+
+
+#b {
+        border: 2px dotted green;
+        display: flex;
+        justify-content: space-around;
+  
+}
+
+.contenedorFlex {
+        width: 65%;
+}
+
+
+#c {
+        border: 2px solid blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
