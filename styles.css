@@ -20,7 +20,6 @@
         height: 35px;
         display: flex;
         justify-content: space-around;
-        
 }
 
 .navLogo {
@@ -80,6 +79,7 @@ body {
 
 .footer {
         background-color: white;
+        clear: both;
 }
 
 .footerLogo {
@@ -110,120 +110,6 @@ body {
 
 
 /* SITIOS */
-.guia {
-        padding-top: 46px;
-        padding-left: 10px;
-
-}
-
-.guia h3 {
-        color: #0138b0;
-        font-family: 'Poppins', sans-serif;
-        font-size: 17px;
-        font-weight: lighter;
-}
-.guia a {
-        text-decoration: none;
-        color: #004080;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-}
-
-.guia a:hover{
-        color: blue;
-}
-
-.sitios {
-  
-        text-align: center;
-        background-color: #FAF9F6;
-
-}
-
-.sitios h2 {
-        color: #003366;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: lighter;
-        text-align: center;
-        text-transform: uppercase;
-        scroll-margin-top: 70px;
-}
-
-.sitios p {
-        padding-top: 5px;
-        color: #6699cc;
-        padding-left: 20%;
-        padding-right: 20%;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;
-}
-
-
-.opinionesSitios h3 {
-        font-family: 'Lora', sans-serif;
-        color:  #355e21;
-        font-style: italic;
-        font-size: 16px;
-        
-}
-
-.opinionesSitios p {
-        color:  #355e21;
-        font-style: italic;
-        font-size: 16px;
-}
-
-.imgSitios {
-        width: 35%;
-        height: 35%;
-        border: 2px solid #0138b0;
-}
-
-.lineaGuia {
-        color: blue;
-        width: 30%;
-        
-}
-.lineaSitios {
-        border-color: transparent;
-        background-color: blue;
-        
-}
-
-
-.ubicacion {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-}
-
-.sitios a {
-        color: #1b4eac;
-        font-family: 'Montserrat';
-        text-decoration: none;
-        
-}
-
-.sitios a:hover{
-        color: blue;
-}
-
-
-.iconoSitios {
-        width: 3.2%;
-        height: 3.2%;
-}
-
-
-.elementosGuia {
-        display: grid;
-        grid-template-columns: repeat(4, 25%);
-        padding-left: 6%;
-
-}
 
 
 
@@ -342,3 +228,139 @@ body {
         flex-direction: column;
         align-items: center;
 }
+
+
+/* LUGARES */
+
+.contenidoLugares {
+        display: flex;
+        align-items: flex-start;
+}
+
+.guia {
+        border-bottom: solid  blue;
+        border-top: solid  blue;
+        background-color: #FAF9F6;
+        margin-top: 56px;
+}
+
+.guia h3 {
+        color: #0138b0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        font-weight: lighter;
+}
+.guia a {
+        text-decoration: none;
+        color: #004080;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+}
+
+.guia a:hover{
+        color: blue;
+}
+
+
+.sitios h2 {
+        color: #003366;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+        text-transform: uppercase;
+        scroll-margin-top: 70px;
+}
+
+.sitios p {
+        padding-top: 5px;
+        color: #6699cc;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+}
+
+
+.opinionesSitios h3 {
+        font-family: 'Lora', sans-serif;
+        color:  #355e21;
+        font-style: italic;
+        font-size: 16px;
+        
+}
+
+.opinionesSitios p {
+        color:  #355e21;
+        font-style: italic;
+        font-size: 16px;
+}
+
+.imgSitios {
+        width: 35%;
+        height: 35%;
+        border: 2px solid #0138b0;
+}
+
+.lineaGuia {
+        color: blue;
+        width: 30%;
+        
+}
+.lineaSitios {
+        border-color: transparent;
+        background-color: blue;
+        
+}
+
+
+.ubicacion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.sitios a {
+        color: #1b4eac;
+        font-family: 'Montserrat';
+        text-decoration: none;
+        
+}
+
+.sitios a:hover{
+        color: blue;
+}
+
+
+.iconoSitios {
+        width: 3.2%;
+        height: 3.2%;
+}
+
+
+.elementosGuia {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        padding-left: 6%;
+
+}
+
+
+
+.sitios {
+        width: 70%;
+        height: auto;
+        text-align: center;
+        background-color: #FAF9F6;
+}
+
+.aside {
+        width: 30%;
+        height: 100%;
+        border: solid #004080;        
+}        
+
+
+/* LUGARES */

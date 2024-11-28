@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #3E1B85;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 142px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    height: 425px;
+}
+
+.carousel img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-width:max-content;
+}
+
+
+.grid-item1 {
+    background-image: url('img2/1.png'); /* Usa un nombre de archivo sin espacios */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    background-blend-mode: overlay;
+}
+
+.grid-item2 {
+    background-image: url('img2/2.png'); /* Usa un nombre de archivo sin espacios */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: background-color 0.3s ease;
+    background-blend-mode: overlay;
+}
+
+.grid-item3 {
+    background-image: url('img2/3.png'); /* Usa un nombre de archivo sin espacios */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: background-color 0.3s ease;
+    background-blend-mode: overlay;
+}
+
+.grid-item4 {
+    background-image: url('img2/4.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: background-color 0.3s ease;
+    background-blend-mode: overlay;
+}
+
+.grid-item5 {
+    background-image: url('img2/5.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: background-color 0.3s ease;
+    background-blend-mode: overlay;
+}
+
+.grid-item6 {
+    background-image: url('img2/6.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: background-color 0.3s ease;
+    background-blend-mode: overlay;
+}
+
+.grid-item7 {
+    background-image: url('img2/7.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: background-color 0.3s ease;
+    background-blend-mode: overlay;
+}
+
+.grid-item8 {
+    background-image: url('img2/8.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: background-color 0.3s ease;
+    background-blend-mode: overlay;
+}
+
+.grid-item9 {
+    background-image: url('img2/9.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: background-color 0.3s ease;
+    background-blend-mode: overlay;
+}
+
+.grid-item1:hover{
+    background-color: rgba(75, 0, 130, 0.2); 
+}
+
+.grid-item2:hover{
+    background-color: rgba(75, 0, 130, 0.2); 
+}
+
+.grid-item3:hover{
+    background-color: rgba(75, 0, 130, 0.2); 
+}
+
+.grid-item4:hover{
+    background-color: rgba(75, 0, 130, 0.2); 
+}
+
+.grid-item5:hover{
+    background-color: rgba(75, 0, 130, 0.2); 
+}
+
+.grid-item6:hover{
+    background-color: rgba(75, 0, 130, 0.2); 
+}
+
+.grid-item7:hover{
+    background-color: rgba(75, 0, 130, 0.2); 
+}
+
+.grid-item8:hover{
+    background-color: rgba(75, 0, 130, 0.2); 
+}
+
+.grid-item9:hover{
+    background-color: rgba(75, 0, 130, 0.2); 
+}
+
+/* Search Section */
+.search-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #3E1B85;
+}
+
+.buscarSearch {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    color: white;
+}
+
+
+.buscarSearch button {
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 320px;
+    text-align: left;
+}
+
+.buscarSearch input {
+    background-color: transparent;
+    border: solid white 1px;
+    color: white;
+    text-align: center;
+    height: 48px;
+    width: 320px;
+    border-radius: 5px;
+    
+}
+
+.tituloSearch h1 {
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.gridSearch {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+    justify-items: center;
+    padding-bottom: 50px;
+    gap: 0;
+
+}
+
+.grid-search1 {
+    height: 466px;
+    width: 300px;
+    background-image: url('img2/1s.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-search2 {
+    height: 466px;
+    width: 300px;
+    background-image: url('img2/2s.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-search3 {
+    height: 466px;
+    width: 300px;
+    background-image: url('img2/3s.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+/* Green Section */
+.green-section {
+    background-color: #0DD6A8;
+    color: white;
+    gap: 20px;
+    height: 550px;
+}
+
+.container-right {
+    padding-left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    padding-top: 90px;
+}
+.green-section button {
+    background-color: transparent;
+    width: 200px;
+    height: 54px;
+    border: solid white 2px;
+    border-radius: 10px;
+    color: white;
+
+}
+/* Footer */
+.footer {
+    background-color: #3E1B85;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 466px;
+}
+
+
+.footer-izq {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.footer-izq img {
+    height: 240px;
+    width: 240px;
+    padding-left: 40px;
+}
+
+.footer-der {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    border-left: solid 2px white;
+    justify-content: center;
+    
+}
